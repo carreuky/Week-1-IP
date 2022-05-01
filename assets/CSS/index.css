@@ -1,0 +1,134 @@
+.navigationbar{ 
+  width: 100%;
+  margin: auto;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+body{
+    font-style: 'Nunito', sans-ser;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-right:80px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.ms{
+  width: 100%;
+  margin: 0;
+  padding: 80px 0;
+}
+.row h4{
+  color: #EC4067;
+}
+.row button{
+  border-radius: 7%;
+  padding: 10px 20px;
+  font-size: 10px;
+}
+button{
+    background-color:#EC4067;
+    margin: auto;
+    border-radius: 8%;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    border-style: solid;
+    border-color: #EC4067;
+}
+span,h3{
+    color:#EC4067;
+}
+h5,h6,h3,span,b{
+    font-size:  25px; 
+    font-weight: bold;
+}
+p2 {
+    border:none rgb(191, 177, 177);    
+    padding: 20px;
+    background-color: #d6d1d1;
+    text-align: center;
+    width: 100%;
+    display: block;
+    
+}
+img{
+        height: 270px;
+        width: 270px;
+        margin: 10px;
+        object-fit: contain;
+      
+}
+.column{
+    float: left;
+    width: 25%;
+    text-align:left;
+    display: block;
+
+}
+.image img{
+  width:650px;
+  height:250px;
+}
+.bmeeting{
+  float:left;
+  width:50%
+}
+
+.bm{
+  width:100%;
+  margin-left: 70px;
+}
+
+.od{
+  width:100%;
+}
+.orday, .image{
+  float:right;
+  width:50%
+}
+.image1{
+  width:50%;
+  float:left;
+}
+.image1 img{
+  width:100%;
+  height:200px;
+}
+.bexplore{
+    background-color: aliceblue;
+    color:black;
+}
+.Buttons{
+    padding: 10px;
+}
+.lastbutton{
+    padding: 10px;
+}
+.emoji{
+  height: 15px;
+  width: 15px;
+}
+li{
+  display:inline-block;
+
+}
+.bottom-left {
+  position: absolute;
+  bottom: 26px;
+  left: 16px;
+  padding: 16px;
+}
+.bottom-right {
+  position: absolute;
+  bottom: -330px;
+  right: 16px;
+}
+.img_container {
+  position: relative;
+  text-align: center;
+  color: white;

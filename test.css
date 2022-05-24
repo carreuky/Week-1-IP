@@ -1,0 +1,31 @@
+.img-container {
+    border: 1px solid red;
+    height: 400px;
+    width: 100%;
+  }
+  .txt-heading {
+    border: 1px solid green;
+    height: 30px;
+    width: 100%;
+  }
+  
+  .txt-img {
+    display: flex;
+    /* flex-direction: row; */
+    border: 1px solid blueviolet;
+    height: 60px;
+    /* width: 300px; */
+  }
+  
+  .txt {
+    border: 1px solid blue;
+    height: 50px;
+    width: 300px;
+  }
+  
+  .img-bike {
+    border: 1px solid yellowgreen;
+    height: 50px;
+    width: 300px;
+  }
+  

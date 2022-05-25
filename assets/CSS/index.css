@@ -1,73 +1,90 @@
-*{
+* {
   padding: 0;
   margin: 0;
   font-family: Poppins;
 }
-.navigationbar{
+
+.navigationbar {
   display: flex;
   justify-content: space-between;
   padding-left: 65px;
   padding-right: 65px;
 }
-.menu > ul{
+
+.menu>ul {
   display: flex;
   list-style: none;
   justify-content: space-between;
 }
-a{
+
+a {
   text-decoration: none;
   color: black;
 }
-.menu > ul > li{
-margin-left: 20px;
-padding: 12px 18px;
-font-size: 20px;
+
+.menu>ul>li {
+  margin-left: 20px;
+  padding: 12px 18px;
+  font-size: 20px;
 }
-.logo{
+
+.logo {
   font-size: 30px;
 }
-span{
-  color:#EC4067;
+
+span {
+  color: #ec4067;
 }
-.enroll{
-  background-color: #EC4067;
+
+.enroll {
+  background-color: #ec4067;
   color: white;
   border-radius: 5px;
 }
-.enroll > a{
+
+.enroll>a {
   color: white;
 }
-.all{
+
+.all {
   margin-left: 80px;
   margin-right: 80px;
   margin-top: 100px;
   margin-bottom: 120px;
 }
-.intro{
+
+.intro {
   display: flex;
   justify-content: center;
 }
-.brief{
-display: flex;
-flex-direction: column;
-align-content: center;
-justify-content: center;
+
+.brief {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
-.coding > img{
+
+.coding>img {
   height: 100%;
   width: 80%;
 }
-.brief > h1{
+
+.brief>h1 {
   padding-bottom: 8px;
 }
-.brief > h2{
+
+.brief>h2 {
   padding-bottom: 12px;
 }
-button{
+
+button {
   box-shadow: rgba(165, 35, 35, 0.25) 0px 14px 28px,
     rgba(150, 31, 31, 0.22) 0px 10px 10px;
 }
-.enrollnow , .explore{
+
+.enrollnow,
+.explore {
   padding: 12px 16px;
   width: 25%;
   font-size: large;
@@ -75,127 +92,154 @@ button{
   margin-right: 10px;
   border-radius: 5px;
 }
-.enrollnow{
-  background-color: #EC4067;
-  border:none;
+
+.enrollnow {
+  background-color: #ec4067;
+  border: none;
   border-radius: 5px;
   color: white;
+}
 
-}
-.explore{
-  border: none
-  3;
-  border-bottom: 2px solid #EC4067;
+.explore {
+  border: none 3;
+  border-bottom: 2px solid #ec4067;
   background-color: white;
-  color: #EC4067;
+  color: #ec4067;
 }
-.date{
-  /* margin-left: -120px; */
-  
-}
-.ori-boa-gra{
+
+.ori-boa-gra {
   display: flex;
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.pics{
+
+.pics {
   width: 50%;
 }
-.row{
+
+.row {
   display: grid;
   grid-template-columns: auto auto auto auto;
   gap: 40px;
   margin-bottom: 100px;
-
 }
+
 .stories-text {
-padding-top: 80px;
+  padding-top: 80px;
+}
 
+.stories-text * {
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-right: 20px;
 }
-.stories-text *{
-padding-left: 40px;
-padding-top: 30px;
-padding-right: 20px;
-}
-.btn-stories{
+
+.btn-stories {
   padding: 12px 16px;
   border: none;
-  background-color: #EC4067;
+  background-color: #ec4067;
   margin-top: 30px;
   margin-left: 40px;
   color: white;
   font-size: 20px;
   border-radius: 10px;
 }
-.heading-text{
+
+.heading-text {
   font-weight: bold;
   font-size: 25px;
 }
-.img_container > img{
+
+.img_container {
+  position: relative;
+}
+
+.img_container>img {
   width: 100%;
   padding-bottom: 20px;
+  position: relative;
 }
-.about-tms{
+
+.name {
+  position: absolute;
+  bottom: 20px;
+  left: 15px;
+  font-size: 20px;
+}
+
+.about-tms {
   padding-left: 5px;
   font-size: 15px;
 }
-.about-tms > h1{
+
+.about-tms>h1 {
   padding-bottom: 20px;
   font-weight: lighter;
   font-size: 25px;
-  color: #EC4067;
+  color: #ec4067;
 }
-.btn-ask{
-  padding: 10px 16px ;
+
+.btn-ask {
+  padding: 10px 16px;
   border-radius: 5px;
-  background-color: #EC4067;
+  background-color: #ec4067;
   border: none;
   color: white;
   margin-top: 20px;
 }
-.project{
+
+.project {
   padding-top: 50px;
   padding-bottom: 80px;
 }
-.project > img{
-  width:60%;
+
+.project>img {
+  width: 60%;
   float: right;
 }
- .our *{
-   padding-bottom: 25px;
-   font-weight: lighter;
- }
- .our > h1{
-   font-size: 30px;
- }
- .our > h2{
-   padding-bottom: 15px;
- }
-.project{
+
+.our * {
+  padding-bottom: 25px;
+  font-weight: lighter;
+}
+
+.our>h1 {
+  font-size: 30px;
+}
+
+.our>h2 {
+  padding-bottom: 15px;
+}
+
+.project {
   display: flex;
 }
-.btn-project{
+
+.btn-project {
   padding: 12px 16px;
   color: white;
-  background-color: #EC4067;
+  background-color: #ec4067;
   border: none;
   border-radius: 5px;
   font-size: 18px;
-
 }
-.still{
+
+.still {
   font-size: 25px;
   line-height: 1.6;
   font-weight: lighter;
 }
-.still > p>span{
+
+.still>p>span {
   font-size: 18px;
 }
-footer{
+
+footer {
   background-color: rgb(194, 190, 190);
   text-align: center;
   padding: 30px;
 }
-.fa-solid{
+
+.fa-solid {
   color: red;
 }

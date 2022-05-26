@@ -145,7 +145,6 @@ button {
   font-size: 20px;
   border-radius: 10px;
 }
-
 .heading-text {
   font-weight: bold;
   font-size: 25px;
@@ -279,5 +278,9 @@ footer {
  }
  .menu{
    display: none;
+ }
+ .all{
+   padding:0;
+   margin: 50px;
  }
 }

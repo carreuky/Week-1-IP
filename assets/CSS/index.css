@@ -140,6 +140,7 @@ button {
   background-color: #ec4067;
   margin-top: 30px;
   margin-left: 40px;
+  margin-bottom: 40px;
   color: white;
   font-size: 20px;
   border-radius: 10px;
@@ -222,6 +223,7 @@ button {
   border: none;
   border-radius: 5px;
   font-size: 18px;
+  margin-bottom: 30px;
 }
 
 .still {
@@ -242,4 +244,40 @@ footer {
 
 .fa-solid {
   color: red;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1250px) {
+  .intro ,.still ,.project{
+      flex-direction: column;
+  }
+  .column , .img_container ,.row{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+  }
+
+  .enrollnow, .explore{
+    width: 50%;
+  }
+  .btn-enroll-explore{
+    display: flex;
+  }
+  .coding > img{
+    width: 100%;
+  }
+ .ori-boa-gra ,.column{
+   flex-direction: column;
+   background-color: antiquewhite;
+ }
+ .pics, .stories-text{
+   width: 100%;
+ }
+ .project>img{
+   width: 100%;
+ }
+ .menu{
+   display: none;
+ }
 }
